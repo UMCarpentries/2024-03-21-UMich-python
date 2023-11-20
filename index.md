@@ -7,18 +7,18 @@ venue: "University of Michigan"        # brief name of the institution that host
 address: "You'll find out once you send your installation materials"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "42.28332637651782"     # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "-83.73405181877277"   # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "December 13-14, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+latitude: "42.276527"     # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: "-83.738180"   # decimal longitude of the workshop venue (use https://www.latlong.net)
+humandate: "December 1, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm EST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2023-12-13      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-12-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Jason Tallant", "Richie Hodel", "Sarah Arcos"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Lisa Levinson", "Allison Mason"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["pschloss@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2023-12-13-umich # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2023-10-12-umich)
-eventbrite: "757862245377"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
-material: "R for Plotting, The Unix Shell, Intro to git & GitHub, R for Data Analysis, Writing Reports with R Markdown"
+startdate: 2023-12-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2023-12-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Fred Feng", "	Pariksheet Nanda"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Gandhimathi Padmanaban", "Rayane Moustafa"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["fredfeng@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+collaborative_notes: https://pad.carpentries.org/2023-12-01-umich # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2023-10-12-umich)
+eventbrite: "000"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+material: "Python for Plotting, The Unix Shell, Intro to git & GitHub, Python for Data Analysis, Jupyter Notebook and Markdown"
 ---
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
@@ -54,7 +54,8 @@ This block includes the Eventbrite registration widget if
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
-{% if page.eventbrite %}
+
+<!-- {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
@@ -64,7 +65,7 @@ displayed if the 'eventbrite' field in the header is not set.
   height="280px"
   scrolling="auto">
 </iframe>
-{% endif %}
+{% endif %} -->
 
 
 <h2 id="general">General Information</h2>
@@ -162,7 +163,7 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong>
   {% if online == "false" %}
     Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Windows, or Linux operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
@@ -313,8 +314,8 @@ in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
 change the value of `carpentry` to `incubator`.
 </div>
 {% else %}
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<!-- <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p> -->
 {% endif %}
 
 <hr/>
