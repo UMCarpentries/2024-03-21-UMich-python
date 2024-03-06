@@ -11,12 +11,12 @@ latitude: "42.276527"     # decimal latitude of workshop venue (use https://www.
 longitude: "-83.738180"   # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "December 1, 2023"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 4:30 pm EST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
-startdate: 2023-12-01      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: 2023-12-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+startdate: 2024-03-21      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2024-03-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Fred Feng", "	Pariksheet Nanda"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Gandhimathi Padmanaban", "Rayane Moustafa"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Pat Schloss", "Cynthia Sopko", "Gandhimathi Padmanaban", "Irene Morse"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["fredfeng@umich.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes: https://pad.carpentries.org/2023-12-01-umich # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2023-10-12-umich)
+collaborative_notes: https://pad.carpentries.org/2024-03-21-umich # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2023-10-12-umich)
 eventbrite: "000"          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 material: "Python for Plotting, The Unix Shell, Intro to git & GitHub, Python for Data Analysis, Jupyter Notebook and Markdown"
 ---
