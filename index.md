@@ -68,6 +68,9 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %} -->
 
 
+<h2 id="general">Registration</h2>
+<a href="https://forms.gle/LxdVqS6Co15XM7fJA">Registration Link</a> You will need to sign in to your Google account to view the registration Google Forms. 
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
